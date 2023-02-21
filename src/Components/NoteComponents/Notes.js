@@ -3,7 +3,7 @@ import "../css/Note.css";
 import CreateNote from "./CreateNote";
 import Note from "./Note";
 import { v4 as uuid } from "uuid";
-
+import React from 'react'
 function Notes() {
   //states
   const [notes, setNotes] = useState([]);

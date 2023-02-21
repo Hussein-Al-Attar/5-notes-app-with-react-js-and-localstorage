@@ -1,5 +1,5 @@
 import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForeverOutlined";
-
+import React from 'react'
 function Note({ id, text, deleteNote }) {
   return (
     <div className="note">
